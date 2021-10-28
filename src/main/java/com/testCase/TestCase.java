@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
-import com.pageObject.Validations;
+import com.pageObject.Validations; 
 import com.resourses.base;
 
 public class TestCase extends base 
