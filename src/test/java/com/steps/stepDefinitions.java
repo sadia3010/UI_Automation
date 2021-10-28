@@ -15,13 +15,13 @@ public class stepDefinitions extends base
 	@Given("^Initialize the browser with chrome$")
 	public void initialize_the_browser_with_chrome() throws Throwable
 	{
-	    
+	    driver=initializeDriver();
 	}
 
 	@When("^URL is opened successfully$")
 	public void url_is_opened_successfully() throws Throwable 
 	{
-	   
+	   driver.get(prop.getProperty("url"));
 	}
 
 	@Then("^verify the count of values on the screen$")
